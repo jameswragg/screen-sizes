@@ -1,0 +1,33 @@
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-weight: 300;
+    line-height: 3;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: $highlightColour;
+    border: none;
+}
+
+.btn,.btn:hover,.btn:active,.btn:focus,.btn:visited {
+    text-decoration: none;
+    color: #fff
+}
+
+.btn:active,.btn:focus {
+    outline: 0;
+    position: relative;
+    top: 1px
+}
+
+.btn--full {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center
+}
+
+.btn--large {
+    line-height: 6
+}

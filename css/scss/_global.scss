@@ -1,0 +1,43 @@
+/**
+ * Styles for screen sizes
+ */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bgColour;
+    padding-bottom: 2em;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+    margin: 0 0 0.5em 0;
+}
+
+.svg-container {
+    margin: 10px 0 0;
+    height: 500px;
+    width: 100%;
+    background-color: darken($bgColour, 5%);
+    border: 1px solid rgba(0,0,0,0.25);
+}
+.js-tip {
+    text-align: center;
+    display: block;
+    margin: 0.25em 0 1em 0;
+}
